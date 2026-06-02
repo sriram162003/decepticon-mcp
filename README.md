@@ -9,7 +9,7 @@ Bridges Decepticon's 73 standalone security tools into Claude Code as native MCP
 ## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/decepticon-mcp/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/sriram162003/decepticon-mcp/main/install.sh | bash
 ```
 
 Then restart Claude Code.

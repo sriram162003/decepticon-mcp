@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # Decepticon MCP — Claude Code Installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/decepticon-mcp/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/sriram162003/decepticon-mcp/main/install.sh | bash
 
 set -euo pipefail
 
-REPO_URL="https://github.com/YOUR_USERNAME/decepticon-mcp"
+REPO_URL="https://github.com/sriram162003/decepticon-mcp"
 DECEPTICON_REPO="https://github.com/PurpleAILAB/Decepticon"
 INSTALL_DIR="$HOME/decepticon-mcp"
 DECEPTICON_DIR="$HOME/Decepticon"
