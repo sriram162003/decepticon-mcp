@@ -98,7 +98,18 @@ Claude Code (main session)
 
 ## Requirements
 
-The 73 tools exposed by the MCP server run without Docker. For the full Decepticon stack (bash sandbox, Ghidra, browser automation, proxy tools), follow [Decepticon's setup guide](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/setup-guide.md).
+## Tool Dependencies
+
+Of the 78 tools exposed by the MCP server:
+
+| Category | Count | Requirement |
+|----------|-------|-------------|
+| **Fully standalone** | 46 | No dependencies — pure local processing |
+| **Knowledge graph tools** | 27 | Use local JSON file by default; Neo4j optional for scale |
+| **Network tools** | 5 | Live network access or external tool output (cve_lookup, http_request, etc.) |
+| **Docker-only** (excluded) | ~20 | bash sandbox, Ghidra, browser, proxy, SIEM integrations |
+
+For the full Decepticon stack including Docker-backed tools, see [Decepticon's setup guide](https://github.com/PurpleAILAB/Decepticon/blob/main/docs/setup-guide.md).
 
 ## Credits
 
